@@ -1,0 +1,64 @@
+%FDF-1.2
+%‚„œ”
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+/V (7Y5)
+/T (Account)
+>>
+<<
+/V ($ ) 
+/T (dollar_amount)
+>>
+<<
+/V (On) 
+/T (One_Time_Only_Request)
+>>
+<<
+/V (043000096) 
+/T (carrier_bank)
+>>
+<<
+/V (2585.35) 
+/T (account_description) 
+>>
+<<
+/V (Memo:AAI001 Sofer, Itzhak  Policy Reference:Guardian Life Insurance Company of America  ) 
+/T (For_Further_Credit_to_Name)
+>>
+<<
+/V (1028907645) 
+/T (carrier_bank_aba)
+>>
+<<
+/V () 
+/T (carrier_name)
+>>
+<<
+/V (On) 
+/T (Amount)
+>>
+<<
+/V (On) 
+/T (Maintain on file for my future use)
+>>
+<<
+/V (2018-04-04) 
+/T (Date)
+>>
+<<
+/V () 
+/T (carrier_bank_account_num)
+>>]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF

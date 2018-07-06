@@ -1,0 +1,201 @@
+<?php   
+
+function createSuitabilityAckfdf($myarray){
+error_reporting(E_ERROR);
+//echo "yes" ;
+$fdffile1 = fopen("/home/capstone/forms/SuitAck-fdf", 'w');
+if($fdffile1){
+//common to all FDFs
+fwrite($fdffile1, "%FDF-1.2\r\n") ;
+fwrite($fdffile1, "%âãÏÓ\r\n") ;
+fwrite($fdffile1, "%FDF-1.2\r\n") ;
+fwrite($fdffile1, "1 0 obj\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/FDF\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/Fields [\r\n");
+
+//All the fields that we can get from myarray and in the form
+// Participant
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[plname])\r\n");
+fwrite($fdffile1, "/T (p_lastname)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pfname])\r\n");
+fwrite($fdffile1, "/T (p_firstname)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pmname])\r\n");
+fwrite($fdffile1, "/T (p_middlename)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[psaddress])\r\n");
+fwrite($fdffile1, "/T (p_address)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pcity])\r\n");
+fwrite($fdffile1, "/T (p_city)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pstate])\r\n");
+fwrite($fdffile1, "/T (p_state)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pzip])\r\n");
+fwrite($fdffile1, "/T (p_ZIP)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[phomephone])\r\n");
+fwrite($fdffile1, "/T (p_home_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pdaytimephone])\r\n");
+fwrite($fdffile1, "/T (p_daytime_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pbdate])\r\n");
+fwrite($fdffile1, "/T (p_birthdate)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pSSN])\r\n");
+fwrite($fdffile1, "/T (p_SSN)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pemail])\r\n");
+fwrite($fdffile1, "/T (p_email)\r\n");
+fwrite($fdffile1, ">>\r\n");
+
+// Joint Owner
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jlname])\r\n");
+fwrite($fdffile1, "/T (joint_lastname)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jfname])\r\n");
+fwrite($fdffile1, "/T (joint_firstname)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jmname])\r\n");
+fwrite($fdffile1, "/T (joint_middle)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jsaddress])\r\n");
+fwrite($fdffile1, "/T (joint_address)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jcity])\r\n");
+fwrite($fdffile1, "/T (joint_city)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jstate])\r\n");
+fwrite($fdffile1, "/T (joint_state)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jzip])\r\n");
+fwrite($fdffile1, "/T (joint_ZIP)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jhomephone])\r\n");
+fwrite($fdffile1, "/T (joint_home_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jdaytimephone])\r\n");
+fwrite($fdffile1, "/T (joint_daytime_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jbirthdate])\r\n");
+fwrite($fdffile1, "/T (joint_birthdate)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jSSN])\r\n");
+fwrite($fdffile1, "/T (joint_ssn)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[jemail])\r\n");
+fwrite($fdffile1, "/T (joint_email)\r\n");
+fwrite($fdffile1, ">>\r\n");
+
+// TRUST
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[trustname])\r\n");
+fwrite($fdffile1, "/T (trust_name)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[trusteename])\r\n");
+fwrite($fdffile1, "/T (trustee_name)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tstreetaddress])\r\n");
+fwrite($fdffile1, "/T (trust_address)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tcity])\r\n");
+fwrite($fdffile1, "/T (trust_city)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tstate])\r\n");
+fwrite($fdffile1, "/T (trust_state)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tzip])\r\n");
+fwrite($fdffile1, "/T (trust_ZIP)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tphone])\r\n");
+fwrite($fdffile1, "/T (trust_home_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[tphone])\r\n");
+fwrite($fdffile1, "/T (trust_daytime_phone)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[trustdate])\r\n");
+fwrite($fdffile1, "/T (date_of_trust)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[ttaxid])\r\n");
+fwrite($fdffile1, "/T (trust_tax_id_num)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[temail])\r\n");
+fwrite($fdffile1, "/T (trust_email)\r\n");
+fwrite($fdffile1, ">>\r\n");
+//PHOTO IDENTIFICATION
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pidtype])\r\n");
+fwrite($fdffile1, "/T (type_of_id)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pidnum])\r\n");
+fwrite($fdffile1, "/T (id_num)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pissuer])\r\n");
+fwrite($fdffile1, "/T (issuing_jurisdiction)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pexpdate])\r\n");
+fwrite($fdffile1, "/T (expiry_date)\r\n");
+fwrite($fdffile1, ">>\r\n");
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($myarray[pissuedate])\r\n");
+fwrite($fdffile1, "/T (issue_date)\r\n");
+fwrite($fdffile1, ">>\r\n");
+// FINANCIAL INFORMATION
+$radiochoice = "Yes" ;
+if ($myarray[paccttype] == "Non Qualified") {
+fwrite($fdffile1, "<<\r\n");
+fwrite($fdffile1, "/V ($radiochoice)\r\n");
+fwrite($fdffile1, "/T (nonqualified)\r\n");
+fwrite($fdffile1, ">>\r\n");
+}
+
+
+         }
+          
+fclose($fdffile1);
+
+}
+
+?>

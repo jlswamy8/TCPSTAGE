@@ -1,0 +1,3 @@
+Name	Cap Raise	Policy Number	Carrier	Face Amount	Policy Date	Carrier Bank	ABA	Carrier Account Number	Has Loan	Form Created	PR Team Member	Completed by PR	Reviewed	Capstone Account	Advisor Code	Capstone Account Description	Amount	Type
+"Feldhamer, Karin"	AAI001	97305319	Phoenix Life Insurance Company			JP Morgan Chase	021000021	9102633030						941827076	7Y5	Capstone Capital Trust AAI1 PRM	5224.45	Premium Payment
+"Sofer, Itzhak"	AAI001	U321501	Guardian Life Insurance Company of America			PNC Bank	043000096	1028907645						941827076	7Y5	Capstone Capital Trust AAI1 PRM	2585.35	Premium Payment

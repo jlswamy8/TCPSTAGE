@@ -1,0 +1,309 @@
+---
+FieldType: Button
+FieldName: Refresh Form 27.Page 3
+FieldNameAlt: Reload PDF
+FieldFlags: 65536
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Print Document 27.Page 3
+FieldNameAlt: Print PDF
+FieldFlags: 65536
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: Save Form 27.Page 3
+FieldNameAlt: Save PDF
+FieldFlags: 65536
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-First_Name
+FieldNameAlt: First Name
+FieldFlags: 2
+FieldValue: Qualified
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-Middle_Name
+FieldNameAlt: Middle Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-Last_Name
+FieldNameAlt: Last Name
+FieldFlags: 2
+FieldValue: Test-iarauth
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-Account_Number
+FieldNameAlt: Account Number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-SSN
+FieldNameAlt: Social Security Number
+FieldFlags: 2
+FieldValue: 1234567890
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-DOB
+FieldNameAlt: Date of Birth
+FieldFlags: 2
+FieldValue: 1/1/1900
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-Phone
+FieldNameAlt: Phone
+FieldFlags: 2
+FieldValue: 5129786754
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-1-Email
+FieldNameAlt: Email
+FieldFlags: 2
+FieldValue: vasu@ccprllc.com
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: TRA-1-Email-CB
+FieldNameAlt: Email
+FieldFlags: 0
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: TRA-1-Phone-CB
+FieldNameAlt: Primary Phone
+FieldFlags: 0
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: TRA-2-Account_Type-RB
+FieldFlags: 49152
+FieldJustification: Left
+FieldStateOption: 0
+FieldStateOption: 1
+FieldStateOption: 2
+FieldStateOption: 3
+FieldStateOption: 4
+FieldStateOption: 5
+FieldStateOption: Choice1
+FieldStateOption: Choice2
+FieldStateOption: Choice3
+FieldStateOption: Choice4
+FieldStateOption: Choice5
+FieldStateOption: Choice6
+FieldStateOption: Off
+---
+FieldType: Button
+FieldName: TRA-2-Inherited_Account-CB
+FieldNameAlt: Inherited Account
+FieldFlags: 0
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Text
+FieldName: TRA-2-Account_Type_Other
+FieldNameAlt: Other
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Contact_Phone
+FieldNameAlt: Contact Phone
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Contact_Name
+FieldNameAlt: Contract Name or Attention To
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Contact_Fax
+FieldNameAlt: Contact Fax
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Custodian_Address
+FieldNameAlt: Custodian Address
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Custodian_City
+FieldNameAlt: City
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Custodian_Zip
+FieldNameAlt: Zip/Postal Code
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Custodian_State
+FieldNameAlt: State/Province
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Account_Number
+FieldNameAlt: Account Number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-Custodian_Name
+FieldNameAlt: Custodian Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-2-FedEx_Account_Number
+FieldNameAlt: FedEx Account Number
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: TRA-2-Expedited_Transfer-CB
+FieldNameAlt: Expedited
+FieldFlags: 0
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: TRA-2-Overnight_Transfer-CB
+FieldNameAlt: Overnight Delivery
+FieldFlags: 0
+FieldValue: Off
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: Yes
+---
+FieldType: Button
+FieldName: TRA-3-Assets_To_Transfer-RB
+FieldFlags: 49152
+FieldJustification: Left
+FieldStateOption: 0
+FieldStateOption: 1
+FieldStateOption: 2
+FieldStateOption: 3
+FieldStateOption: Choice1
+FieldStateOption: Choice2
+FieldStateOption: Choice3
+FieldStateOption: Choice4
+FieldStateOption: Off
+---
+FieldType: Text
+FieldName: TRA-3-Transer_Amount
+FieldNameAlt: Transfer Exactly
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: TRA-3-Transfer_Type-RB
+FieldFlags: 49152
+FieldJustification: Left
+FieldStateOption: 0
+FieldStateOption: 1
+FieldStateOption: Choice1
+FieldStateOption: Choice2
+FieldStateOption: Off
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Name_1
+FieldNameAlt: Asset Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Shares_1
+FieldNameAlt: No. of Shares
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Value_1
+FieldNameAlt: Value
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Name_2
+FieldNameAlt: Asset Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Shares_2
+FieldNameAlt: No. of Shares
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Value_2
+FieldNameAlt: Value
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Name_3
+FieldNameAlt: Asset Name
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Shares_3
+FieldNameAlt: No. of Shares
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-3-Assets_Value_3
+FieldNameAlt: Value
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Button
+FieldName: TRA-4-Delivery_Instructions-RB
+FieldFlags: 49152
+FieldJustification: Left
+FieldStateOption: 0
+FieldStateOption: 1
+FieldStateOption: 2
+FieldStateOption: Choice1
+FieldStateOption: Choice2
+FieldStateOption: Choice3
+FieldStateOption: Off
+---
+FieldType: Text
+FieldName: TRA-6-Date
+FieldNameAlt: Date
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: TRA-5-Date
+FieldNameAlt: Date
+FieldFlags: 0
+FieldJustification: Left

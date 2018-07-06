@@ -1,0 +1,6 @@
+ WP seems to work with just the htdocs.
+There are 3 other directories: conf, licenses and tmp that have not been 
+moved from /home/tcpdev/apps/wordpress.
+Please do consider this while troubleshooting.
+Vasu 11/8/2017
+****************************************

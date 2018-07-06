@@ -1,0 +1,132 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Search FamilySearch</title>
+
+  <meta name="description" content="The HTML5 Herald">
+
+  <meta name="author" content="SitePoint">
+
+  <script src="https://unpkg.com/fs-js-lite@latest/dist/FamilySearch.min.js"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+	<h1>Search FamilySearch</h1>
+
+	<p>Login, and then begin searching Family Tree. This app uses the <a href="https://github.com/FamilySearch/fs-js-lite">FamilySearch JS Lite SDK</a></p>
+<p>
+	<button class="login btn btn-primary">Login to Family Search</button>
+        </br>
+        (It will return you back to this page and then you can start your Search)
+       </br>
+</p>
+        </br>
+        Start your search by entering one or more of these fields. 
+	<input class="first_name" type="" name="" value="Bob">
+
+	<input class="last_name" type="" name="" value="Jones">
+
+	<button class="search btn btn-success">Search</button>
+
+
+
+	<ul class="results"></ul>
+
+</div>
+
+
+
+<script
+
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+
+  crossorigin="anonymous">
+
+</script>
+
+<script type="text/javascript">
+
+var fs = new FamilySearch({
+
+//  environment: 'production',
+  environment: 'integration',
+
+  appKey: 'a02f100000STQnkAAH',
+//  appKey: 'a02j000000KTRjpAAH',
+
+  redirectUri: 'http://www.capstoneplatform.com/apps/mortalityTracker/trackone.html',
+//  redirectUri: 'https://misbach.github.io/FS-TreeSearch/',
+
+  saveAccessToken: true,
+
+  tokenCookie: 'FS_AUTH_TOKEN'
+
+});
+
+
+fs.oauthResponse();
+
+
+$('.login').click(function() {
+	fs.oauthRedirect();});
+
+
+
+$('.search').click(function() {
+
+	fs.get('/platform/tree/search?q=givenName:'+$('.first_name').val()+'+surname:'+$('.last_name').val(), {
+
+  	headers: { Accept: 'application/x-gedcomx-atom+json' }
+
+	}, function(error, response) {
+
+		if (response.statusCode == 401) alert("You must login first");
+
+
+
+		var entries = response.data.entries;
+
+		for (var i=0; i<entries.length; i++) {
+
+			console.log(entries[i].content.gedcomx.persons[0]);
+
+			var name = entries[i].content.gedcomx.persons[0].display.name;
+
+			var birth = entries[i].content.gedcomx.persons[0].display.birthDate;
+
+	          	var place = entries[i].content.gedcomx.persons[0].display.birthPlace;
+
+			var death = entries[i].content.gedcomx.persons[0].display.deathDate;
+
+			var link = "https://familysearch.org/tree/pedigree/"+entries[i].content.gedcomx.persons[0].id;
+
+			$('.results').append('<li><a href="'+link+'" target="_blank">'+name+'</a> - Birth Date: '+birth+' Place: '+place+' Death Date: '+death+'</li>');
+
+		}
+
+	});
+
+});
+
+
+
+</script>
+
+</body>
+
+</html>

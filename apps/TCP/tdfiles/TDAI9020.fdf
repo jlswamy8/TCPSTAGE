@@ -1,0 +1,204 @@
+%FDF-1.2
+%‚„œ”
+1 0 obj 
+<<
+/FDF 
+<<
+/Fields [
+<<
+/V ()
+/T (End Date optional)
+>> 
+<<
+/V /
+/T (Brokerage Account)
+>> 
+<<
+/V /
+/T (Annually)
+>> 
+<<
+/V (thisisatest)
+/T (Account)
+>> 
+<<
+/V ()
+/T (dollar_amount)
+>> 
+<<
+/V ()
+/T (Receiving Bank Account)
+>> 
+<<
+/V ()
+/T (International Bank Name)
+>> 
+<<
+/V /
+/T (One_Time_Only_Request)
+>> 
+<<
+/V ()
+/T (carrier_bank)
+>> 
+<<
+/V ()
+/T (Signature2_es_:signer:signature)
+>> 
+<<
+/V ()
+/T (For Further Credit Name and Account  if applicable)
+>> 
+<<
+/V ()
+/T (Bank Street Address)
+>> 
+<<
+/V ()
+/T (Bank CityCountry  Bank Telephone)
+>> 
+<<
+/V ()
+/T (Additional Bank Routing Information  for example Sort  UK IBAN  Euro Transit  Canada CLABE  Mexico etc)
+>> 
+<<
+/V ()
+/T (account_description)
+>> 
+<<
+/V ()
+/T (For_Further_Credit_to_Name)
+>> 
+<<
+/V /
+/T (Semiannually)
+>> 
+<<
+/V ()
+/T (SWIFTBIC Code)
+>> 
+<<
+/V /
+/T (First Business Day of Month)
+>> 
+<<
+/V /
+/T (Standing Instructions Only Proceed to Section 4)
+>> 
+<<
+/V /
+/T (EscrowMortgage File)
+>> 
+<<
+/V ()
+/T (2)
+>> 
+<<
+/V ()
+/T (1)
+>> 
+<<
+/V /
+/T (Mark here if this request is to update your current systematic payments Please provide details of the current setup below)
+>> 
+<<
+/V ()
+/T (carrier_bank_aba)
+>> 
+<<
+/V ()
+/T (Name on Receiving Bank Account List name as it appears at Bank and if name contains initials please provide full name)
+>> 
+<<
+/V /
+/T (Monthly)
+>> 
+<<
+/V ()
+/T (carrier_name)
+>> 
+<<
+/V /
+/T (Amount)
+>> 
+<<
+/V /
+/T (Current Available Cash Balance TD Ameritrade will disburse only funds that are available at the time of processing)
+>> 
+<<
+/V (Antony Joffe)
+/T (Account Owner Printed Name)
+>> 
+<<
+/V ()
+/T (Intermediary Bank CityState)
+>> 
+<<
+/V /
+/T (Last Business Day of Month)
+>> 
+<<
+/V ()
+/T (Case)
+>> 
+<<
+/V (7Y5)
+/T (Advisor Code)
+>> 
+<<
+/V /
+/T (Quarterly)
+>> 
+<<
+/V ()
+/T (Date)
+>> 
+<<
+/V ()
+/T (Account CoOwner Printed Name)
+>> 
+<<
+/V ()
+/T (undefined_2)
+>> 
+<<
+/V ()
+/T (Signature1_es_:signer:signature)
+>> 
+<<
+/V ()
+/T (undefined_3)
+>> 
+<<
+/V ()
+/T (carrier_bank_account_num)
+>> 
+<<
+/V ()
+/T (Date_2)
+>> 
+<<
+/V ()
+/T (Start Date if recurring)
+>> 
+<<
+/V ()
+/T (Reset Form)
+>> 
+<<
+/V /
+/T (Maintain on file for my future use)
+>> 
+<<
+/V /
+/T (Periodically complete the below)
+>>]
+>>
+>>
+endobj 
+trailer
+
+<<
+/Root 1 0 R
+>>
+%%EOF

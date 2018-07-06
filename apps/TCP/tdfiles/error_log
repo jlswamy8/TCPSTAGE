@@ -1,0 +1,8 @@
+[03-Apr-2018 05:51:58 UTC] PHP Warning:  Division by zero in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 126
+[03-Apr-2018 05:51:58 UTC] PHP Warning:  copy(): Filename cannot be empty in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 126
+[04-Apr-2018 00:23:55 UTC] PHP Parse error:  syntax error, unexpected '".pdf"' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 131
+[04-Apr-2018 00:27:23 UTC] PHP Parse error:  syntax error, unexpected '".pdf"' (T_CONSTANT_ENCAPSED_STRING) in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 131
+[04-Apr-2018 03:14:13 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 46
+[04-Apr-2018 03:14:13 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 46
+[04-Apr-2018 03:18:43 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 46
+[04-Apr-2018 03:18:43 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /var/www/html/apps/TCP/tdfiles/create-pdfs.php on line 46
